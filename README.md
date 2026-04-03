@@ -38,7 +38,7 @@ print(functions)
 ### Get Classes
 
 ```python
-classes = PyLibsMetaSearch.get_classes("requests", "2.33.1)
+classes = PyLibsMetaSearch.get_classes("requests", "2.33.1")
 print(classes)
 ```
 
