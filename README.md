@@ -19,8 +19,8 @@ pip install pylibsmeta-search
 ```python
 from pylibsmeta_search import PyLibsMetaSearch
 
-# Search for requests library v2.31.0
-result = PyLibsMetaSearch.search("requests", "2.31.0")
+# Search for requests library v2.33.1
+result = PyLibsMetaSearch.search("requests", "2.33.1")
 print(result)
 ```
 
@@ -29,7 +29,7 @@ print(result)
 ### Get Functions
 
 ```python
-functions = PyLibsMetaSearch.get_functions("requests", "2.31.0")
+functions = PyLibsMetaSearch.get_functions("requests", "2.33.1")
 print(functions)
 ```
 
@@ -38,7 +38,7 @@ print(functions)
 ### Get Classes
 
 ```python
-classes = PyLibsMetaSearch.get_classes("requests", "2.31.0")
+classes = PyLibsMetaSearch.get_classes("requests", "2.33.1)
 print(classes)
 ```
 
@@ -47,7 +47,7 @@ print(classes)
 ### Get All Symbols
 
 ```python
-symbols = PyLibsMetaSearch.get_symbols("requests", "2.31.0")
+symbols = PyLibsMetaSearch.get_symbols("requests", "2.33.1")
 print(symbols)
 ```
 
@@ -96,9 +96,9 @@ Example:
 ```python
 {
     'library': 'requests',
-    'version': '2.31.0',
+    'version': '2.33.0',
     'status': 'found',
-    'filename': 'requests_v000200310000.json',
+    'filename': 'requests_v000200330000.json',
     'metadata': {}
 }
 ```
